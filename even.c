@@ -3,7 +3,11 @@
 int main(void) {
 	int a;
 	scanf("%d",&a);
-	if((a%2)==0)
+	if(sizeof(a)==4)
+	{
+		printf("Invalid input");
+	}
+	else if((a%2)==0)
 	{
 		printf("The number is even");
 	}
