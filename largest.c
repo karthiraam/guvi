@@ -1,21 +1,20 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c,element;
-	printf("Enter the values of a,b,c");
+	int a,b,c,max;
 	scanf("%d %d %d",&a,&b,&c);
 	if((a>b)&&(a>c))
 	{
-		element=a;
+		max=a;
 	}
 	else if((b>a)&&(b>c))
 	{
-		element=b;
+		max=b;
 	}
 	else
 	{
-		element=c;
+		max=c;
 	}
-	printf("%d",element);
+	printf("%d",max);
 	return 0;
 }
