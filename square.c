@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int x,y,z;
-  printf("Enter the Number of x and y ");
-  scanf("%d %d",&x,&y);
-  z=pow(x,y);
-  printf("%d ",z);
+  int p,q,r;
+  printf("Enter the number p and q");
+  scanf("%d %d", &p,&q);
+  r=pow(p,q);
+  printf("%d",r);
   return 0;
 }
