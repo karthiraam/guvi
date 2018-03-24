@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-scanf("%d %d",&a,&b);
-c=pow(a,b);
-printf("%d",c);
+int x,y,z;
+scanf("%d %d",&x,&y);
+z=pow(x,y);
+printf("%d",z);
 return 0;
 }
