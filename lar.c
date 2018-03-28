@@ -1,26 +1,26 @@
 #include <stdio.h>
 int main(void) {
-	int a[10],i,n,j,temp;
+	int z[10],i,n,j,element;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-	scanf("%d",&a[i]);
+	scanf("%d",&z[i]);
 	}
 	for(i=0;i<n;i++)
 	{
             for(j=i+1;j<=n;j++)
 	{
-	if(a[i]>a[j])
+	if(z[i]>z[j])
 	{
-	temp=a[i];
-	a[i]=a[j];
-	a[j]=temp;
+	element=z[i];
+	z[i]=z[j];
+	z[j]=element;
 	}
 	}
 	}
 	for(i=n;i>=1;i--)
 	{
-	printf("%d",a[i]);
+	printf("%d",z[i]);
 	}
 return 0;
 }
