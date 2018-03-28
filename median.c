@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void swap(int *p,int *q) {
+void swap(int *u,int *v) {
    int t;
    
-   t=*p; 
-   *p=*q; 
-   *q=t;
+   t=*v; 
+   *v=*u; 
+   *u=t;
 }
 
 void sort(int a[],int n) { 
